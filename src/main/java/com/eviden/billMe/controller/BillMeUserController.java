@@ -30,6 +30,11 @@ public class BillMeUserController {
         return "demo";
     }
 
+    @GetMapping("/jenkinsdemo")
+    public String jenkinsdemo(){
+        return "jenkinsdemo";
+    }
+
     @GetMapping("/login")
     public BillMeUser billMeUserLogin(@RequestParam("userName") String userName,
                                       @RequestParam("password") String password){
