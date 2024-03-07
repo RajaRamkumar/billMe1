@@ -25,11 +25,6 @@ public class BillMeUserController {
     @Autowired
     private BillMeUserRepository billMeUserRepository;
 
-    @GetMapping("/demo")
-    public String demo(){
-        return "demo";
-    }
-
     @GetMapping("/jenkinsdemo")
     public String jenkinsdemo(){
         return "jenkinsdemo";
